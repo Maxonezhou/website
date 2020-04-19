@@ -6,13 +6,16 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="./styles/style.css">
+        <link rel="stylesheet" href="./styles/style360.css">
+        <link rel="stylesheet" href="./styles/style411.css">
+        <link rel="stylesheet" href="./styles/style768.css">
         <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display&display=swap" rel="stylesheet">
     </head>
     <body>
         <nav class="navbar navbar-expand-md sticky-top navbar-light bg-light">
-            <a class="navbar-brand" href="#"> <img src="home.svg" width="50vw" height="auto"><!-- <span class="logo-name"> <strong> Max Zhou </strong> </span> --> </a>
+            <a class="navbar-brand" href="#"> <img src="./imgs/home.svg" width="50vw" height="auto"><!-- <span class="logo-name"> <strong> Max Zhou </strong> </span> --> </a>
             <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu ">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -31,7 +34,7 @@
                         <a class="nav-link" href="#projects"> Projects </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://drive.google.com/file/d/13P1r8oIGNbm2xVbglXw27xjzK1BkQya_/view?usp=sharing"> Resume </a>
+                        <a class="nav-link" href="https://drive.google.com/file/d/1hBlM6braOAAo7Zo7Pdw1OqG5MbxK-QGz/view?usp=sharing"> Resume </a>
                     </li>
                 </ul>
             </div>
@@ -42,14 +45,14 @@
                 <h2 class="intro2"> Max Zhou </h1>
                 <h2 class="intro3">
                     I am a
-                    <span href="" class="typewrite" data-period="500" data-type='[ "Lifelong Learner.", "Developer.", "Innovator.", "Designer." ]'>
+                    <span href="" class="typewrite" data-period="500" data-type='[ "Trailblazer.", "Lifelong Learner.", "Developer.", "Designer." ]'>
                         <span class="wrap"></span>
                     </span>
                 </h2>
                 <p class="intro4">
                     Let's build something amazing together 🚀
                 </p>
-                <img class="intro-img" src="cover2.svg">
+                <img class="intro-img" src="./imgs/cover2.svg">
                 <div class="transition1"><a href="#about-me"><i class="fa fa-angle-double-down"></i></a></div>
             </div>
             <div class="icons">
@@ -65,6 +68,7 @@
             <div class="wrapper">
                 <div class="about-me-inc" id="about-me">_</div>
                 <div class="about-me">
+                    <img class="about-me-img" src="./imgs/portrait.png">
                     <h2 class="about-me-title1"> <strong> Here's a little about me 👱‍♂️ </strong> </h2>
                     <p class="about-me-desc1">
                         Hi! I am an Electrical Engineering student at the University of Waterloo. I love all things <strong> hardware </strong> and <strong> embedded
@@ -87,10 +91,13 @@
                             • Matlab <br>
                             • Java | AspectJ <br>
                             • Javascript <br>
+                            • NodeJS <br>
+                            • ExpressJS <br>
+                            • ReactJS <br>
                             • HTML and CSS <br>
                         </p>
                         <p class="skills-col2">
-                            • Real-time Operating Systems (RTOS) - Microsar.OS and ROS <br>
+                            • Real-time Operating Systems (RTOS) <br>
                             • CAN Protocol <br>
                             • IoT (Internet of Things) <br>
                             • I2C Protocol <br>
@@ -98,15 +105,15 @@
                             • Microprocessor Design <br>
                         </p>
                     </div>
-                    <img class="about-me-img" src="portrait.png">
+                    
                 </div>
                 <div class="experience-inc" id="experience">_</div>
                 <div class="experience">
                     <h2 class="experience-title1"> <strong> This is what I've done ✔ </strong>︎️ </h2>
                     <div class="ibm">
-                        <img src="IBM.jpg" class="ibm-img">
+                        <img src="./imgs/IBM.jpg" class="ibm-img">
                         <div class="ibm-info">
-                            <h2 class="ibm-title"> <span class="ibm-role"> Backend Software Developer </span> @ IBM Canada 👁🐝𝗠 </h2>
+                            <h2 class="ibm-title"> <span class="ibm-role"> Backend Software Developer </span> @ IBM Canada <span class="reebus"> 👁🐝𝗠 </span> </h2>
                             <h2 class="ibm-loc"> Ottawa, ON 📍</h2>
                             <p class="ibm-desc">
                                 Our team worked on the IBM Planning Analytics product, a cloud-based buisiness analytics 
@@ -119,9 +126,9 @@
                         </div>
                     </div>
                     <div class="cansofcom">
-                        <img src="cansofcom.jpeg" class="cansofcom-img">
+                        <img src="./imgs/cansofcom.jpeg" class="cansofcom-img">
                         <div class="cansofcom-info">
-                            <h2 class="cansofcom-title"> <span class="cansofcom-role"> Virtual Forces Student Analyst | Hardware </span> @ CANSOFCOM</h2>
+                            <h2 class="cansofcom-title"> <span class="cansofcom-role"> Hardware Virtual Forces Student Analyst </span> @ CANSOFCOM</h2>
                             <h2 class="cansofcom-loc"> Ottawa, ON 📍</h2>
                             <p class="cansofcom-desc">
                                 Worked in the hardware division of the Canadian Special Operations Forces Command helping 
@@ -132,7 +139,7 @@
                         </div>
                     </div>
                     <div class="ford">
-                        <img src="ford.svg" class="ford-img">
+                        <img src="./imgs/ford.svg" class="ford-img">
                         <div class="ford-info">
                             <h2 class="ford-title"> <span class="ford-role"> Firmware Developer </span> @ Ford Motor Company of Canada 🚙 </h2>
                             <h2 class="ford-loc"> Ottawa, ON 📍</h2>
@@ -148,7 +155,7 @@
                         </div>
                     </div>
                     <div class="wato">
-                        <img src="wato.png" class="wato-img">
+                        <img src="./imgs/wato.png" class="wato-img">
                         <div class="wato-info">
                             <h2 class="wato-title"> <span class="wato-role"> Sensor Interfacing Engineer </span> @ WATOnomous 🚘 </h2>
                             <h2 class="wato-loc"> Waterloo, ON 📍</h2>
@@ -165,7 +172,7 @@
                         </div>
                     </div>
                     <div class="uofc">
-                        <img src="uofc.png" class="uofc-img">
+                        <img src="./imgs/uofc.png" class="uofc-img">
                         <div class="uofc-info">
                             <h2 class="uofc-title"> <span class="uofc-role"> Fluid Dynamics Student Researcher </span> @ University of Calgary 🔬 </h2>
                             <h2 class="uofc-loc"> Calgary, AB 📍</h2>
@@ -181,15 +188,18 @@
                 </div>
                 <div class="projects-inc" id="projects">_</div>
                 <div class="projects">
-                    <h2 class="projects-title"> <strong> Here are some projects I've worked on ⚙️ </strong> </h2>
+                    <h2 class="projects-title"> <strong> Here's What I've Been Working On ⚙️ </strong> </h2>
                     <div class="cpu">
-                        <img class="cpu-img" src="cpu.JPG">
+                        <div class="cpu-img-flex">
+                            <img class="cpu-img" src="./imgs/cpu.jpg">
+                            <img class="cpu-img-2" src="./imgs/cpu2.jpg"">
+                        </div>
                         <div class="cpu-info">
                             <h2 class="cpu-name"> 8-Bit Homemade Breadboard Computer 💻</h2>
                             <p class="cpu-desc">
-                                Computer hardware and cpu architecture has always been something that intrigued me. Whether is was designing basic logic circuits
-                                or reading about new advances in cpu technology, learning to design my own cpu from scratch 
-                                has always been a goal of mine. After completing two courses in analog electronics, one course in digital logic, and a course in 
+                                Computer hardware and cpu architecture has always been something that intrigued me. From designing basic logic circuits
+                                to learning how each component of a CPU interacts with each other, designing my own cpu from scratch 
+                                has always been a goal of mine. After completing a couple of courses in analog electronics, digital logic, and 
                                 computer organization, I embarked on a journey to built an 8-bit cpu completely from scratch on a breadboard; here is the result. <br><br>
 
                                 This breadboard computer followed the SAP-1 (Simple as Possible 1) architecture as introduced by Albert Paul Malvino. This very basic
@@ -200,10 +210,10 @@
                                 a program counter, 16 bytes of RAM, two general purpose registers, an instruction register, output register, CPU flags register, ALU, digital output display,
                                 and control logic built using EEPROMS. One of the main goals I wanted for this cpu was for it to be Turing complete, thereby giving it the 
                                 capability to carry out any possible computable sequence. In order to accomplish this, I needed to give the computer an instruction set 
-                                mimicing that of a Turing machine. This cpu is capable of performing addtion, subtraction, loading, storing, halting, outputting, branching,
+                                mimicing that of a Turing machine by introducing conditional branch instructions. This cpu is capable of performing addtion, subtraction, loading, storing, halting, outputting, branching,
                                 as well as conditional branching to satisfy the requirements of Turing completeness.<br><br>
 
-                                To read more about this processor as well as its technical specifications, please check out my Medium article here detailing all the 
+                                To read more about this processor as well as its technical specifications, please check out my article here detailing all the 
                                 nitty gritty information and a little more insight into what I learned: <a href="http://google.ca"> Article </a>
                             </p>
                         </div>
@@ -247,19 +257,19 @@
                         </div>
                         <div class="guardian-img-flex">
                             <div class="guardian-img-flex-main">
-                                <img class="guardian-img-main" src="guardian4.png">
-                                <img class="guardian-img-main-last" src="guardian5.png">
+                                <img class="guardian-img-main" src="./imgs/guardian4.png">
+                                <img class="guardian-img-main-last" src="./imgs/guardian5.png">
                             </div>
                             <div class="guardian-img-flex-secondary">
-                                <img class="guardian-img-secondary" src="guardian1.png">
-                                <img class="guardian-img-secondary" src="guardian2.png">
+                                <img class="guardian-img-secondary" src="./imgs/guardian1.png">
+                                <img class="guardian-img-secondary" src="./imgs/guardian2.png">
                             </div>
                         </div>
                     </div>
                     <div class="detritusai">
                         <div class="detritusai-img-flex">
-                            <img class="detritusai-img" src="detritusAI.png">
-                            <img class="detritusai-img" src="detritusAI2.png">
+                            <img class="detritusai-img" src="./imgs/detritusAI.png">
+                            <img class="detritusai-img" src="./imgs/detritusAI2.png">
                         </div>
                         <div class="detritusai-info">
                             <h2 class="detritusai-name"> DetritusAI - IoT Smart City Waste Collection </h2>
@@ -289,7 +299,7 @@
                                 of their waste but more importantly reduces the time needed for garbage collection personnel to collect the waste thereby improving 
                                 efficiency, reducing pollution, and creating a smarter, greener city. </strong> <br><br>
 
-                                Check out our project here! <a href="https://devpost.com/software/detritusai-lsrpeq"> Devpost </a> <br><br>
+                                Check out our project here! <a href="https://devpost.com/software/detritusai-lsrpeq"> Devpost </a>
                             </p>
                             <ul class="detritusai-icons">
                                 <li class="detritusai-github"><a class="detritusai-github-link" href="https://github.com/Maxonezhou/DetritusAI"><i class="fa fa-github"></i></a></li>
@@ -338,7 +348,7 @@
                                 <strong> Data Base: </strong> The data is received by the NodeMCU microcontroller is sent to a real-time Google Firebase database where it is categorized by sensor
                                 and type of data.<br><br>
 
-                                Check out our project here! <a href="https://devpost.com/software/fireguard-07cbjk"> Devpost </a> <br><br>
+                                Check out our project here! <a href="https://devpost.com/software/fireguard-07cbjk"> Devpost </a> 
                             </p>
                             <ul class="fireguard-icons">
                                 <li class="fireguard-github"><a class="guardian-github-link" href="https://github.com/Maxonezhou/fireguard"><i class="fa fa-github"></i></a></li>
@@ -346,9 +356,9 @@
                             </ul>
                         </div>
                         <div class="fireguard-img-flex">
-                            <img class="fireguard-img" src="fireguard1.png">
-                            <img class="fireguard-img" src="fireguard2.png">
-                            <img class="fireguard-img" src="fireguard3.png">
+                            <img class="fireguard-img" src="./imgs/fireguard1.png">
+                            <img class="fireguard-img" src="./imgs/fireguard2.png">
+                            <img class="fireguard-img" src="./imgs/fireguard3.png">
                         </div>
                     </div>
                 </div>
@@ -363,7 +373,7 @@
                             <a class="email-btn-link" href="mailto:max.zhou@uwaterloo.ca"> Email </a>
                         </button>
                         <button class="resume-btn">
-                            <a class="resume-btn-link" href="https://drive.google.com/file/d/13P1r8oIGNbm2xVbglXw27xjzK1BkQya_/view?usp=sharing"> Resume </a>
+                            <a class="resume-btn-link" href="https://drive.google.com/file/d/1hBlM6braOAAo7Zo7Pdw1OqG5MbxK-QGz/view?usp=sharing"> Resume </a>
                         </button>
                         <button class="linkedin-btn">
                             <a class="linkedin-btn-link" href="https://linkedin.com/in/max-zhou"> Linkedin </a>
@@ -372,7 +382,7 @@
                 </div>
             </div>
         </div>
-        <script src="script.js"></script>
+        <script src="./scripts/script.js"></script>
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
