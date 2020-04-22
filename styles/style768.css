@@ -11,31 +11,31 @@
     {
         position: absolute;
         left: 15vw;
-        top: 55%;
+        top: 50%;
         width: 60vw;
     }
 
     .intro1
     {
-        font-size: 4vw;
+        font-size: 5vw;
         margin-left: 1.5%;
     }
 
     .intro2
     {
-        font-size: 12vw;
+        font-size: 13vw;
         width: 80vw;
     }
 
     .intro3
     {
-        font-size: 4vw;
+        font-size: 5vw;
         margin-left: 1.5%;
     }
 
     .intro4
     {
-        font-size: 2.75vw;
+        font-size: 3.75vw;
         width: 80vw;
         margin-left: 1.5%;
         margin-top: 4%;
@@ -43,10 +43,10 @@
 
     .intro-img
     {
-        width: 75vw;
+        width: 80vw;
         height: auto;
         position: absolute;
-        left: -2%;
+        left: -7%;
         top: -100%;
     }
 
@@ -68,8 +68,8 @@
         z-index: 1;
         position: relative;
         left: 29vw;
-        top: 8vh;
-        width: fit-content;
+        top: 10vh;
+        width: 5vw;
 
         animation: gbounce 2s;
         animation-timing-function: ease;
@@ -82,11 +82,17 @@
         color: #8C1515;
     }
 
+    .mobile-inactive
+    {
+        pointer-events: none;
+        cursor: default;
+    }
+
     .icons
     {
         z-index: 1;
         position: fixed;
-        top: 53vh;
+        top: 48vh;
     }
 
     .icons ul
@@ -103,7 +109,7 @@
 
     .icons ul li i 
     {
-        font-size: 4vw;
+        font-size: 5vw;
     }
 
     .icons ul li a
@@ -135,14 +141,14 @@
     {
         border-left: 1px solid #8C1515;
         height: 18vh;
-        margin-left: 2.2vw!important;
+        margin-left: 2.6vw!important;
     }
 
     .vertical-line2
     {
         border-left: 1px solid #8C1515;
         height: 10vh;
-        margin-left: 2.3vw!important;
+        margin-left: 2.9vw!important;
     }
 
     .wrapper
@@ -156,31 +162,32 @@
     {
         position: relative;
         left: 10vw;
-        top: 6vh;
-        width: fit-content;
+        top: 8.5vh;
+        width: 85vw;
     }
 
     .about-me-inc
     {
+        color: white;
         position: relative;
         top: -5vh;
-        color: white;
+        width: 4vw;
     }
 
     .about-me-title1
     {
         position: relative;
         margin-bottom: 5%;
-        font-size: 4.5vw;
-        width: fit-content;
+        font-size: 6.5vw;
+        width: auto;
     }
 
     .about-me-desc1
     {
         position: relative;
         width: 80vw;
-        font-size: 2.5vw;
-        margin-bottom: 5%;
+        font-size: 4.5vw;
+        margin-bottom: 8%;
     }
 
     .about-me-title2
@@ -188,15 +195,15 @@
         position: relative;
         margin-bottom: 5%;
         width: 80vw;
-        font-size: 4.5vw;
+        font-size: 6.5vw;
     }
 
     .about-me-desc2
     {
         position: relative;
         width: 80vw;
-        font-size: 2.5vw;
-        margin-bottom: 5%;
+        font-size: 4.5vw;
+        margin-bottom: 8%;
     }
 
     .curiosity
@@ -229,26 +236,26 @@
         position: relative;
         margin-bottom: 5%;
         width: 80vw;
-        font-size: 4.5vw;
+        font-size: 6.5vw;
     }
 
     .about-me-desc3
     {
         display: flex;
         flex-direction: row;
-        width: fit-content;
+        width: auto;
     }
 
     .skills-col1
     {
-        font-size: 2vw;
+        font-size: 4vw;
         margin-right: 6vw;
-        width: fit-content;
+        width: auto;
     }
 
     .skills-col2
     {
-        font-size: 2vw;
+        font-size: 4vw;
         width: 40vw;
     }
 
@@ -258,40 +265,40 @@
         left: 0vw;
         top: 0vw;
         margin-bottom: 10%;
-        width: 50vw;
+        width: 70vw;
         height: auto;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 
     .experience-inc
     {
+        color: white;
         position: relative;
         top: 10vh;
-        color: white;
     }
 
     .experience
     {
         position: relative;
         left: 14vw;
-        top: 18vh;
-        width: fit-content;
+        top: 20vh;
+        width: 72vw;
     }
 
     .experience-title1
     {
         position: relative;
-        left: 8vw;
+        left: -2vw;
         margin-bottom: 5%;
-        font-size: 4.5vw;
-        width: fit-content;
+        font-size: 6.5vw;
+        width: auto;
     }
 
     .ibm
     {
         display: flex;
         flex-direction: column;
-        margin-left: 1vw;
+        margin-left: -1vw;
         margin-bottom: 5%;
         margin-top: 4vh;
     }
@@ -301,7 +308,7 @@
         align-self: center;
         width: 60vw;
         height: auto;
-        margin-right: 7vw;
+        margin-right: auto;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 
@@ -314,7 +321,7 @@
 
     .ibm-title
     {
-        font-size: 3vw;
+        font-size: 5vw;
         width: 70vw;
     }
 
@@ -330,14 +337,14 @@
 
     .ibm-loc
     {
-        font-size: 2.6vw;
-        width: fit-content;
+        font-size: 4vw;
+        width: auto;
         color:rgb(47, 27, 158);
     }
 
     .ibm-desc
     {
-        font-size: 2vw;
+        font-size: 3.5vw;
         width: 70vw;
     }
 
@@ -345,7 +352,7 @@
     {
         display: flex;
         flex-direction: column;
-        margin-left: 1vw;
+        margin-left: -1vw;
         margin-bottom: 5%;
         margin-top: 4vh;
     }
@@ -355,7 +362,7 @@
         align-self: center;
         width: 60vw;
         height: auto;
-        margin-right: 7vw;
+        margin-right: auto;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 
@@ -368,7 +375,7 @@
 
     .cansofcom-title
     {
-        font-size: 3vw;
+        font-size: 5vw;
         width: 70vw;
     }
 
@@ -379,14 +386,14 @@
 
     .cansofcom-loc
     {
-        font-size: 2.6vw;
-        width: fit-content;
+        font-size: 4vw;
+        width: auto;
         color:rgb(47, 27, 158);
     }
 
     .cansofcom-desc
     {
-        font-size: 2vw;
+        font-size: 3.5vw;
         width: 70vw;
     }
 
@@ -394,7 +401,7 @@
     {
         display: flex;
         flex-direction: column;
-        margin-left: 1vw;
+        margin-left: -1vw;
         margin-bottom: 5%;
         margin-top: 4vh;
     }
@@ -404,7 +411,7 @@
         align-self: center;
         width: 60vw;
         height: auto;
-        margin-right: 7vw;
+        margin-right: auto;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 
@@ -417,7 +424,7 @@
 
     .ford-title
     {
-        font-size: 3vw;
+        font-size: 5vw;
         width: 70vw;
     }
 
@@ -428,14 +435,14 @@
 
     .ford-loc
     {
-        font-size: 2.6vw;
-        width: fit-content;
+        font-size: 4vw;
+        width: auto;
         color:rgb(47, 27, 158);
     }
 
     .ford-desc
     {
-        font-size: 2vw;
+        font-size: 3.5vw;
         width: 70vw;
     }
 
@@ -443,7 +450,7 @@
     {
         display: flex;
         flex-direction: column;
-        margin-left: 1vw;
+        margin-left: -1vw;
         margin-bottom: 5%;
         margin-top: 4vh;
     }
@@ -453,7 +460,7 @@
         align-self: center;
         width: 60vw;
         height: auto;
-        margin-right: 7vw;
+        margin-right: auto;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 
@@ -466,7 +473,7 @@
 
     .wato-title
     {
-        font-size: 3vw;
+        font-size: 5vw;
         width: 70vw;
     }
 
@@ -477,14 +484,14 @@
 
     .wato-loc
     {
-        font-size: 2.6vw;
-        width: fit-content;
+        font-size: 4vw;
+        width: auto;
         color:rgb(47, 27, 158);
     }
 
     .wato-desc
     {
-        font-size: 2vw;
+        font-size: 3.5vw;
         width: 70vw;
     }
     
@@ -492,7 +499,7 @@
     {
         display: flex;
         flex-direction: column;
-        margin-left: 1vw;
+        margin-left: -1vw;
         margin-bottom: 5%;
         margin-top: 4vh;
     }
@@ -502,7 +509,7 @@
         align-self: center;
         width: 60vw;
         height: auto;
-        margin-right: 7vw;
+        margin-right: auto;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 
@@ -515,7 +522,7 @@
 
     .uofc-title
     {
-        font-size: 3vw;
+        font-size: 5vw;
         width: 70vw;
     }
 
@@ -526,29 +533,30 @@
 
     .uofc-loc
     {
-        font-size: 2.6vw;
-        width: fit-content;
+        font-size: 4vw;
+        width: auto;
         color:rgb(47, 27, 158);
     }
 
     .uofc-desc
     {
-        font-size: 2vw;
+        font-size: 3.5vw;
         width: 70vw;
     }
     
+
     .projects-inc
     {
+        color: white;
         position: relative;
         top: 22vh;
-        color: white;
     }
 
     .projects
     {
         position: relative;
-        top: 26vh;
-        width: fit-content;
+        top: 32vh;
+        width: auto;
     }
 
     .projects-title
@@ -556,7 +564,7 @@
         position: relative;
         left: 13vw;
         margin-bottom: 5%;
-        font-size: 4vw;
+        font-size: 6.5vw;
         width: 80vw;
     }
 
@@ -567,7 +575,7 @@
         margin-left: 10vw;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         margin-bottom: 5%;
-        width: 75vw;
+        width: 80vw;
     }
 
     .cpu-info
@@ -586,13 +594,19 @@
 
     .cpu-img
     {
+        /*align-self: center;
+        width: 60vw;
+        height: auto;
+        margin-right: 0vw;
+        margin: 2vw;
+        margin-top: 2.5vh;*/
         display: none;
     }
 
     .cpu-img-2
     {
         align-self: center;
-        width: 71vw;
+        width: 77vw;
         height: auto;
         margin-right: 0vw;
         margin: 2vw;
@@ -600,14 +614,14 @@
 
     .cpu-name
     {
-        font-size: 3.25vw;
-        width: fit-content;
+        font-size: 4vw;
+        width: auto;
     }
 
     .cpu-desc
     {
-        font-size: 2vw;
-        width: 69vw;
+        font-size: 3vw;
+        width: 74vw;
     }
 
     .guardian
@@ -617,7 +631,7 @@
         margin-left: 10vw;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         margin-bottom: 5%;
-        width: 75vw;
+        width: 80vw;
     }
 
     .guardian-info
@@ -632,7 +646,7 @@
     {
         display: flex;
         flex-direction: column;
-        margin-top: 5%;
+        margin-top: 2.5%;
     }
 
     .guardian-img-flex-main
@@ -650,7 +664,7 @@
     .guardian-img-main
     {
         align-self: center;
-        width: 34.5vw;
+        width: 37vw;
         height: auto;
         margin-left: 2vw;
         margin-right: 2vw;
@@ -659,7 +673,7 @@
     .guardian-img-main-last
     {
         align-self: center;
-        width: 34.5vw;
+        width: 37vw;
         height: auto;
         margin-right: 2vw;
     }
@@ -667,7 +681,7 @@
     .guardian-img-secondary
     {
         align-self: center;
-        width: 71vw;
+        width: 76vw;
         height: auto;
         margin-top: 2%;
         margin-right: 1vw;
@@ -676,14 +690,14 @@
 
     .guardian-name
     {
-        font-size: 3.25vw;
-        width: fit-content;
+        font-size: 4vw;
+        width: auto;
     }
 
     .guardian-desc
     {
-        font-size: 2vw;
-        width: 69vw;
+        font-size: 3vw;
+        width: 74vw;
     }
 
     .guardian-icons
@@ -720,7 +734,7 @@
         margin-left: 10vw;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         margin-bottom: 5%;
-        width: 75vw;
+        width: 80vw;
     }
 
     .detritusai-info
@@ -735,13 +749,13 @@
     {
         display: flex;
         flex-direction: column;
-        margin-top: 2%;
+        margin-top: 1%;
     }
 
     .detritusai-img
     {
         align-self: center;
-        width: 71vw;
+        width: 77vw;
         height: auto;
         margin-right: 0vw;
 
@@ -750,14 +764,14 @@
 
     .detritusai-name
     {
-        font-size: 3.25vw;
-        width: fit-content;
+        font-size: 4vw;
+        width: auto;
     }
 
     .detritusai-desc
     {
-        font-size: 2vw;
-        width: 69vw;
+        font-size: 3vw;
+        width: 74vw;
     }
 
     .detritusai-icons
@@ -795,7 +809,7 @@
         margin-left: 10vw;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         margin-bottom: 5%;
-        width: 75vw;
+        width: 80vw;
     }
 
     .fireguard-info
@@ -817,7 +831,7 @@
     .fireguard-img
     {
         align-self: center;
-        width: 71vw;
+        width: 77vw;
         height: auto;
         margin-right: 0vw;
         margin: 2vw;
@@ -825,14 +839,14 @@
 
     .fireguard-name
     {
-        font-size: 3.25vw;
-        width: fit-content;
+        font-size: 4vw;
+        width: auto;
     }
 
     .fireguard-desc
     {
-        font-size: 2vw;
-        width: 69vw;
+        font-size: 3vw;
+        width: 74vw;
     }
 
     .fireguard-icons
@@ -866,15 +880,15 @@
     {
         position: relative;
         top: 40vh;
-        width: fit-content;
+        width: auto;
     }
 
     .outro-1
     {
         text-align: center;
-        width: fit-content;
+        width: auto;
         font-size: 7vw;
-        margin-left: 27vw;
+        margin-left: 5vw;
         margin-bottom: 4%;
     }
 
@@ -882,8 +896,8 @@
     {
         text-align: center;
         width: 70vw;
-        font-size: 2.25vw;
-        margin-left: 12vw;
+        font-size: 3vw;
+        margin-left: 11.5vw;
         line-height: 2.5vh;
         margin-bottom: 8%;
     }
@@ -892,7 +906,7 @@
     {
         display: flex;
         flex-direction: row;
-        margin-left: 26vw;
+        margin-left: 20vw;
         margin-bottom: 50%;
     }
 
@@ -902,7 +916,7 @@
         background-color: white;
         padding: 0.3vw 0.9vw;
         border: 2px solid #8C1515;
-        font-size: 3vw;
+        font-size: 4vw;
         transition: 0.4s;
         cursor: pointer;
         text-decoration-color: black;

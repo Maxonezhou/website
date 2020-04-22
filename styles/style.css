@@ -14,7 +14,17 @@ body
 {
     height: 100%;
     font-family: 'Open Sans';
-} 
+    animation: websitefadein 2s;
+}
+
+@keyframes websitefadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
 
 .logo-name
 {
@@ -198,8 +208,8 @@ body
 {
     position: relative;
     left: 16vw;
-    top: 13vh;
-    width: fit-content;
+    top: 7vh;
+    width: 30vw;
 }
 
 .about-me-inc
@@ -212,7 +222,7 @@ body
     position: relative;
     margin-bottom: 1%;
     font-size: 1.75vw;
-    width: fit-content;
+    width: 30vw;
 }
 
 .about-me-desc1
@@ -244,9 +254,21 @@ body
     color: #8C1515;
 }
 
+.curiosity:hover
+{
+    color: #8C1515;
+    text-decoration: none;
+}
+
 .joyfulness
 {
     color: #8C1515;
+}
+
+.joyfulness:hover
+{
+    color: #8C1515;
+    text-decoration: none;
 }
 
 .fearlessness
@@ -254,9 +276,21 @@ body
     color: #8C1515;
 }
 
+.fearlessness:hover 
+{
+    color: #8C1515;
+    text-decoration: none;
+}
+
 .authenticity
 {
     color: #8C1515;
+}
+
+.authenticity:hover
+{
+    color: #8C1515;
+    text-decoration: none;
 }
 
 .responsibility
@@ -264,11 +298,17 @@ body
     color: #8C1515;
 }
 
+.responsibility:hover
+{
+    color: #8C1515;
+    text-decoration: none;
+}
+
 .about-me-title3
 {
     position: relative;
     margin-bottom: 1%;
-    width: 30vw;
+    width: auto;
     font-size: 1.5vw;
 }
 
@@ -276,20 +316,20 @@ body
 {
     display: flex;
     flex-direction: row;
-    width: fit-content;
+    width: auto;
 }
 
 .skills-col1
 {
     font-size: 1vw;
     margin-right: 2vw;
-    width: fit-content;
+    width: 15vw;
 }
 
 .skills-col2
 {
     font-size: 1vw;
-    width: fit-content;
+    width: 30vw;
 }
 
 .about-me-img
@@ -306,15 +346,16 @@ body
 {
     color: white;
     position: relative;
-    top: 35vh;
+    top: 15vh;
+    width: 2vw;
 }
 
 .experience
 {
     position: relative;
     left: 14vw;
-    top: 40vh;
-    width: fit-content;
+    top: 20vh;
+    width: 70vw;
 }
 
 .experience-title1
@@ -323,7 +364,7 @@ body
     left: 22vw;
     margin-bottom: 5%;
     font-size: 2vw;
-    width: fit-content;
+    width: 30vw;
 }
 
 .ibm
@@ -331,7 +372,7 @@ body
     display: flex;
     flex-direction: row;
     margin-left: 7vw;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
 }
 
 .ibm-img
@@ -352,7 +393,7 @@ body
 .ibm-title
 {
     font-size: 1.25vw;
-    width: fit-content;
+    width: 32vw;
 }
 
 .ibm-role 
@@ -363,7 +404,6 @@ body
 .ibm-loc
 {
     font-size: 1.1vw;
-    width: fit-content;
     color:rgb(47, 27, 158);
 }
 
@@ -378,7 +418,7 @@ body
     display: flex;
     flex-direction: row;
     margin-left: 7vw;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
 }
 
 .cansofcom-img
@@ -399,7 +439,7 @@ body
 .cansofcom-title
 {
     font-size: 1.25vw;
-    width: fit-content;
+    width: 35vw;
 }
 
 .cansofcom-role 
@@ -410,7 +450,6 @@ body
 .cansofcom-loc
 {
     font-size: 1.1vw;
-    width: fit-content;
     color: rgb(47, 27, 158);
 }
 
@@ -425,7 +464,7 @@ body
     display: flex;
     flex-direction: row;
     margin-left: 7vw;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
 }
 
 .ford-img
@@ -446,7 +485,7 @@ body
 .ford-title
 {
     font-size: 1.25vw;
-    width: fit-content;
+    width: 35vw;
 }
 
 .ford-role 
@@ -457,7 +496,6 @@ body
 .ford-loc
 {
     font-size: 1.1vw;
-    width: fit-content;
     color: rgb(47, 27, 158);
 }
 
@@ -472,7 +510,7 @@ body
     display: flex;
     flex-direction: row;
     margin-left: 7vw;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
 }
 
 .wato-img
@@ -493,7 +531,7 @@ body
 .wato-title
 {
     font-size: 1.25vw;
-    width: fit-content;
+    width: 35vw;
 }
 
 .wato-role 
@@ -504,7 +542,6 @@ body
 .wato-loc
 {
     font-size: 1.1vw;
-    width: fit-content;
     color: rgb(47, 27, 158);
 }
 
@@ -519,7 +556,7 @@ body
     display: flex;
     flex-direction: row;
     margin-left: 7vw;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
 }
 
 .uofc-img
@@ -540,7 +577,7 @@ body
 .uofc-title
 {
     font-size: 1.25vw;
-    width: fit-content;
+    width: 35vw;
 }
 
 .uofc-role 
@@ -551,7 +588,6 @@ body
 .uofc-loc
 {
     font-size: 1.1vw;
-    width: fit-content;
     color: rgb(47, 27, 158);
 }
 
@@ -565,14 +601,15 @@ body
 {
     color: white;
     position: relative;
-    top: 45vh;
+    top: 30vh;
+    width: 3vw;
 }
 
 .projects
 {
     position: relative;
-    top: 50vh;
-    width: fit-content;
+    top: 35vh;
+    width: auto;
 }
 
 .projects-title
@@ -581,7 +618,7 @@ body
     left: 29vw;
     margin-bottom: 5%;
     font-size: 2vw;
-    width: fit-content;
+    width: 40vw;
 }
 
 .cpu
@@ -589,9 +626,25 @@ body
     display: flex;
     flex-direction: row;
     margin-left: 14vw;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
     margin-bottom: 5%;
-    width: fit-content;
+    width: 67vw;
+
+
+    /* Hover Glow Animation */
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow;
+    transition-property: box-shadow;
+}
+
+.cpu:hover, .cpu:focus, .cpu:active 
+{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
 }
 
 .cpu-info
@@ -613,7 +666,7 @@ body
     align-self: center;
     width: 30vw;
     height: auto;
-    margin-right: 0vw;
+    margin-bottom: 0!important;
     margin: 2vw;
 }
 
@@ -629,7 +682,7 @@ body
 .cpu-name
 {
     font-size: 1.5vw;
-    width: fit-content;
+    width: auto;
 }
 
 .cpu-desc
@@ -643,9 +696,24 @@ body
     display: flex;
     flex-direction: row;
     margin-left: 14vw;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
     margin-bottom: 5%;
-    width: fit-content;
+    width: 67vw;
+
+    /* Hover Glow Animation */
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow;
+    transition-property: box-shadow;
+}
+
+.guardian:hover, .guardian:focus, .guardian:active 
+{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
 }
 
 .guardian-info
@@ -703,7 +771,7 @@ body
 .guardian-name
 {
     font-size: 1.5vw;
-    width: fit-content;
+    width: auto;
 }
 
 .guardian-desc
@@ -743,9 +811,24 @@ body
     display: flex;
     flex-direction: row;
     margin-left: 14vw;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
     margin-bottom: 5%;
-    width: fit-content;
+    width: 67vw;
+
+    /* Hover Glow Animation */
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow;
+    transition-property: box-shadow;
+}
+
+.detritusai:hover, .detritusai:focus, .detritusai:active 
+{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
 }
 
 .detritusai-info
@@ -776,7 +859,7 @@ body
 .detritusai-name
 {
     font-size: 1.5vw;
-    width: fit-content;
+    width: auto;
 }
 
 .detritusai-desc
@@ -817,9 +900,24 @@ body
     display: flex;
     flex-direction: row;
     margin-left: 14vw;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
     margin-bottom: 5%;
-    width: fit-content;
+    width: 67vw;
+
+    /* Hover Glow Animation */
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow;
+    transition-property: box-shadow;
+}
+
+.fireguard:hover, .fireguard:focus, .fireguard:active 
+{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
 }
 
 .fireguard-info
@@ -850,7 +948,7 @@ body
 .fireguard-name
 {
     font-size: 1.5vw;
-    width: fit-content;
+    width: auto;
 }
 
 .fireguard-desc
@@ -885,20 +983,26 @@ body
     color: #8C1515;
 }
 
+.outro-inc
+{
+    position: relative;
+    top: 35vh;
+    color: white;
+}
+
 .outro 
 {
     position: relative;
-    top: 80vh;
-    width: fit-content;
+    top: 65vh;
+    width: auto;
 }
 
 .outro-1
 {
     text-align: center;
-    width: fit-content;
+    width: auto;
     font-size: 3vw;
-    margin-left: 39.5vw;
-    margin-bottom: 4%;
+    margin-bottom: 2%;
 }
 
 .outro-2
@@ -906,7 +1010,7 @@ body
     text-align: center;
     width: 40vw;
     font-size: 1vw;
-    margin-left: 28.5vw;
+    margin-left: 28.75vw;
     line-height: 3vh;
     margin-bottom: 4%;
     line-height: 5vh;
@@ -916,8 +1020,8 @@ body
 {
     display: flex;
     flex-direction: row;
-    margin-left: 36vw;
-    margin-bottom: 30%;
+    margin-left: 36.5vw;
+    margin-bottom: 30vh;
 }
 
 .outro-btn-flex button
@@ -935,19 +1039,25 @@ body
 .email-btn:hover
 {
     background-color: #8C1515;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 .resume-btn:hover
 {
     background-color: #8C1515;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 .linkedin-btn:hover
 {
     background-color: #8C1515;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 .email-btn-link
@@ -983,5 +1093,12 @@ body
 .linkedin-btn-link:hover
 {
     text-decoration: none;
+    color: white;
+}
+
+.outro-force
+{
+    position: relative;
+    top: 50vh;
     color: white;
 }

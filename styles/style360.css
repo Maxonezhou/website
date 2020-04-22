@@ -69,7 +69,7 @@
         position: relative;
         left: 29vw;
         top: 10vh;
-        width: fit-content;
+        width: 5vw;
 
         animation: gbounce 2s;
         animation-timing-function: ease;
@@ -82,11 +82,17 @@
         color: #8C1515;
     }
 
+    .mobile-inactive
+    {
+        pointer-events: none;
+        cursor: default;
+    }
+
     .icons
     {
         z-index: 1;
         position: fixed;
-        top: 50vh;
+        top: 48vh;
     }
 
     .icons ul
@@ -156,8 +162,8 @@
     {
         position: relative;
         left: 10vw;
-        top: 6vh;
-        width: fit-content;
+        top: 8.5vh;
+        width: 85vw;
     }
 
     .about-me-inc
@@ -165,14 +171,15 @@
         color: white;
         position: relative;
         top: -5vh;
+        width: 4vw;
     }
 
     .about-me-title1
     {
         position: relative;
-        margin-bottom: 8%;
+        margin-bottom: 5%;
         font-size: 6.5vw;
-        width: fit-content;
+        width: auto;
     }
 
     .about-me-desc1
@@ -186,7 +193,7 @@
     .about-me-title2
     {
         position: relative;
-        margin-bottom: 8%;
+        margin-bottom: 5%;
         width: 80vw;
         font-size: 6.5vw;
     }
@@ -227,7 +234,7 @@
     .about-me-title3
     {
         position: relative;
-        margin-bottom: 8%;
+        margin-bottom: 5%;
         width: 80vw;
         font-size: 6.5vw;
     }
@@ -236,14 +243,14 @@
     {
         display: flex;
         flex-direction: row;
-        width: fit-content;
+        width: auto;
     }
 
     .skills-col1
     {
         font-size: 4vw;
         margin-right: 6vw;
-        width: fit-content;
+        width: auto;
     }
 
     .skills-col2
@@ -274,8 +281,8 @@
     {
         position: relative;
         left: 14vw;
-        top: 18vh;
-        width: fit-content;
+        top: 20vh;
+        width: 72vw;
     }
 
     .experience-title1
@@ -284,7 +291,7 @@
         left: -2vw;
         margin-bottom: 5%;
         font-size: 6.5vw;
-        width: fit-content;
+        width: auto;
     }
 
     .ibm
@@ -301,7 +308,7 @@
         align-self: center;
         width: 60vw;
         height: auto;
-        margin-right: 7vw;
+        margin-right: auto;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 
@@ -314,7 +321,7 @@
 
     .ibm-title
     {
-        font-size: 4vw;
+        font-size: 5vw;
         width: 70vw;
     }
 
@@ -330,14 +337,14 @@
 
     .ibm-loc
     {
-        font-size: 3.6vw;
-        width: fit-content;
+        font-size: 4vw;
+        width: auto;
         color:rgb(47, 27, 158);
     }
 
     .ibm-desc
     {
-        font-size: 3vw;
+        font-size: 3.5vw;
         width: 70vw;
     }
 
@@ -355,7 +362,7 @@
         align-self: center;
         width: 60vw;
         height: auto;
-        margin-right: 7vw;
+        margin-right: auto;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 
@@ -368,7 +375,7 @@
 
     .cansofcom-title
     {
-        font-size: 4vw;
+        font-size: 5vw;
         width: 70vw;
     }
 
@@ -379,14 +386,14 @@
 
     .cansofcom-loc
     {
-        font-size: 3.6vw;
-        width: fit-content;
+        font-size: 4vw;
+        width: auto;
         color:rgb(47, 27, 158);
     }
 
     .cansofcom-desc
     {
-        font-size: 3vw;
+        font-size: 3.5vw;
         width: 70vw;
     }
 
@@ -404,7 +411,7 @@
         align-self: center;
         width: 60vw;
         height: auto;
-        margin-right: 7vw;
+        margin-right: auto;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 
@@ -417,7 +424,7 @@
 
     .ford-title
     {
-        font-size: 4vw;
+        font-size: 5vw;
         width: 70vw;
     }
 
@@ -428,14 +435,14 @@
 
     .ford-loc
     {
-        font-size: 3.6vw;
-        width: fit-content;
+        font-size: 4vw;
+        width: auto;
         color:rgb(47, 27, 158);
     }
 
     .ford-desc
     {
-        font-size: 3vw;
+        font-size: 3.5vw;
         width: 70vw;
     }
 
@@ -453,7 +460,7 @@
         align-self: center;
         width: 60vw;
         height: auto;
-        margin-right: 7vw;
+        margin-right: auto;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 
@@ -466,7 +473,7 @@
 
     .wato-title
     {
-        font-size: 4vw;
+        font-size: 5vw;
         width: 70vw;
     }
 
@@ -477,14 +484,14 @@
 
     .wato-loc
     {
-        font-size: 3.6vw;
-        width: fit-content;
+        font-size: 4vw;
+        width: auto;
         color:rgb(47, 27, 158);
     }
 
     .wato-desc
     {
-        font-size: 3vw;
+        font-size: 3.5vw;
         width: 70vw;
     }
     
@@ -502,7 +509,7 @@
         align-self: center;
         width: 60vw;
         height: auto;
-        margin-right: 7vw;
+        margin-right: auto;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 
@@ -515,7 +522,7 @@
 
     .uofc-title
     {
-        font-size: 4vw;
+        font-size: 5vw;
         width: 70vw;
     }
 
@@ -526,14 +533,14 @@
 
     .uofc-loc
     {
-        font-size: 3.6vw;
-        width: fit-content;
+        font-size: 4vw;
+        width: auto;
         color:rgb(47, 27, 158);
     }
 
     .uofc-desc
     {
-        font-size: 3vw;
+        font-size: 3.5vw;
         width: 70vw;
     }
     
@@ -548,8 +555,8 @@
     .projects
     {
         position: relative;
-        top: 26vh;
-        width: fit-content;
+        top: 32vh;
+        width: auto;
     }
 
     .projects-title
@@ -557,7 +564,7 @@
         position: relative;
         left: 13vw;
         margin-bottom: 5%;
-        font-size: 4vw;
+        font-size: 6.5vw;
         width: 80vw;
     }
 
@@ -568,7 +575,7 @@
         margin-left: 10vw;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         margin-bottom: 5%;
-        width: 75vw;
+        width: 80vw;
     }
 
     .cpu-info
@@ -576,7 +583,7 @@
         display: flex;
         flex-direction: column;
         margin: 2vw;
-        margin-left: 4vw;
+        margin-left: 3vw;
     }
 
     .cpu-img-flex
@@ -599,7 +606,7 @@
     .cpu-img-2
     {
         align-self: center;
-        width: 71vw;
+        width: 77vw;
         height: auto;
         margin-right: 0vw;
         margin: 2vw;
@@ -607,14 +614,14 @@
 
     .cpu-name
     {
-        font-size: 3.25vw;
-        width: fit-content;
+        font-size: 4vw;
+        width: auto;
     }
 
     .cpu-desc
     {
-        font-size: 2.5vw;
-        width: 69vw;
+        font-size: 3vw;
+        width: 74vw;
     }
 
     .guardian
@@ -624,7 +631,7 @@
         margin-left: 10vw;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         margin-bottom: 5%;
-        width: 75vw;
+        width: 80vw;
     }
 
     .guardian-info
@@ -632,14 +639,14 @@
         display: flex;
         flex-direction: column;
         margin: 2vw;
-        margin-left: 4vw;
+        margin-left: 3vw;
     }
 
     .guardian-img-flex
     {
         display: flex;
         flex-direction: column;
-        margin-top: 5%;
+        margin-top: 2.5%;
     }
 
     .guardian-img-flex-main
@@ -657,7 +664,7 @@
     .guardian-img-main
     {
         align-self: center;
-        width: 34.5vw;
+        width: 37vw;
         height: auto;
         margin-left: 2vw;
         margin-right: 2vw;
@@ -666,7 +673,7 @@
     .guardian-img-main-last
     {
         align-self: center;
-        width: 34.5vw;
+        width: 37vw;
         height: auto;
         margin-right: 2vw;
     }
@@ -674,7 +681,7 @@
     .guardian-img-secondary
     {
         align-self: center;
-        width: 71vw;
+        width: 76vw;
         height: auto;
         margin-top: 2%;
         margin-right: 1vw;
@@ -683,14 +690,14 @@
 
     .guardian-name
     {
-        font-size: 3.25vw;
-        width: fit-content;
+        font-size: 4vw;
+        width: auto;
     }
 
     .guardian-desc
     {
-        font-size: 2.5vw;
-        width: 69vw;
+        font-size: 3vw;
+        width: 74vw;
     }
 
     .guardian-icons
@@ -727,7 +734,7 @@
         margin-left: 10vw;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         margin-bottom: 5%;
-        width: 75vw;
+        width: 80vw;
     }
 
     .detritusai-info
@@ -735,20 +742,20 @@
         display: flex;
         flex-direction: column;
         margin: 2vw;
-        margin-left: 4vw;
+        margin-left: 3vw;
     }
 
     .detritusai-img-flex
     {
         display: flex;
         flex-direction: column;
-        margin-top: 2%;
+        margin-top: 1%;
     }
 
     .detritusai-img
     {
         align-self: center;
-        width: 71vw;
+        width: 77vw;
         height: auto;
         margin-right: 0vw;
 
@@ -757,14 +764,14 @@
 
     .detritusai-name
     {
-        font-size: 3.25vw;
-        width: fit-content;
+        font-size: 4vw;
+        width: auto;
     }
 
     .detritusai-desc
     {
-        font-size: 2.5vw;
-        width: 69vw;
+        font-size: 3vw;
+        width: 74vw;
     }
 
     .detritusai-icons
@@ -802,7 +809,7 @@
         margin-left: 10vw;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         margin-bottom: 5%;
-        width: 75vw;
+        width: 80vw;
     }
 
     .fireguard-info
@@ -810,7 +817,7 @@
         display: flex;
         flex-direction: column;
         margin: 2vw;
-        margin-left: 4vw;
+        margin-left: 3vw;
         margin-right: 0vw;
     }
 
@@ -824,7 +831,7 @@
     .fireguard-img
     {
         align-self: center;
-        width: 71vw;
+        width: 77vw;
         height: auto;
         margin-right: 0vw;
         margin: 2vw;
@@ -832,14 +839,14 @@
 
     .fireguard-name
     {
-        font-size: 3.25vw;
-        width: fit-content;
+        font-size: 4vw;
+        width: auto;
     }
 
     .fireguard-desc
     {
-        font-size: 2.5vw;
-        width: 69vw;
+        font-size: 3vw;
+        width: 74vw;
     }
 
     .fireguard-icons
@@ -873,15 +880,15 @@
     {
         position: relative;
         top: 40vh;
-        width: fit-content;
+        width: auto;
     }
 
     .outro-1
     {
         text-align: center;
-        width: fit-content;
+        width: auto;
         font-size: 7vw;
-        margin-left: 27vw;
+        margin-left: 5vw;
         margin-bottom: 4%;
     }
 
@@ -890,7 +897,7 @@
         text-align: center;
         width: 70vw;
         font-size: 3vw;
-        margin-left: 12vw;
+        margin-left: 11.5vw;
         line-height: 2.5vh;
         margin-bottom: 8%;
     }
@@ -899,7 +906,7 @@
     {
         display: flex;
         flex-direction: row;
-        margin-left: 21vw;
+        margin-left: 20vw;
         margin-bottom: 50%;
     }
 
